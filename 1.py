@@ -17,14 +17,14 @@ import json
 import hashlib
 
 
-def Beijing_time():
-    r = requests.get('https://www.baidu.com')
-    t = time.strptime(r.headers['date'], '%a, %d %b %Y %H:%M:%S GMT')
-    return time.mktime(t)+28800
+# def Beijing_time():
+#     r = requests.get('https://www.baidu.com')
+#     t = time.strptime(r.headers['date'], '%a, %d %b %Y %H:%M:%S GMT')
+#     return time.mktime(t)+28800
 
-if(Beijing_time()-1601972022.997835>=86400*1):
-    input("测试期已过，请联系作者。qq:792301982")
-    sys.exit()
+# if(Beijing_time()-1601972022.997835>=86400*1):
+#     input("测试期已过，请联系作者。qq:792301982")
+#     sys.exit()
 
 
 confirm_url = "https://wap.showstart.com/pages/order/activity/confirm/confirm?sequence=112533&ticketId=9e91b8d67588498ab759f8f3f5ae259a&ticketNum=1&ioswx=1&terminal=app&from=singlemessage&isappinstalled=0"
