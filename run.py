@@ -81,7 +81,7 @@ if DEBUG != 1:
             b = WebDriverWait(driver, 10).until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, '.payBtn')))
             time.sleep(1)
-            # input("输入验证码后，按回车。")
+            input("输入验证码或手机号后，按回车继续。")
 
             driver.get_log('performance')  # 清空
 
