@@ -4,13 +4,23 @@
 >1 运行脚本前应保证chromedriver.exe版本与本机chrome浏览器版本一致 
 >2 ***由于显而易见的原因 脚本已经三个月未维护 不保证抢票成功率。***
 
->欢迎大家继续修改
-***目前存在的问题***
-2021.2.27
-秀动那边做了修改，现在confirm_url无法在开售前提前进入。
+>欢迎大家提交PR，共同修改
 
->***祝各位好运***
+# 2021.2.27
+~~秀动那边做了修改，现在confirm_url无法在开售前提前进入。~~
+# 2021.3.1
+获取confirm_url方式：
+![image](https://user-images.githubusercontent.com/35649701/109514276-cf0e0e80-7ae0-11eb-9833-66843cb0ef76.png)
+某confirm_url:https://wap.showstart.com/pages/order/activity/confirm/confirm?sequence=132373&ticketId=2d60d9262aa9460a9478b71b5b43f545&ticketNum=1&ioswx=1&showstart=nb
+把获取到的ticketid和sequence参数，替换进去。
 
+***目前仍然存在的问题***
+
+1.目前只能在app端下单
+
+2.下单时有滑块验证码
+
+>***最后祝各位好运***
 
 ## 特别声明:
 
