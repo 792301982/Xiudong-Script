@@ -1,7 +1,9 @@
 # Xiudong-Script
 作者qq：792301982
 >统一回复下:
->1 运行脚本前应保证chromedriver.exe版本与本机chrome浏览器版本一致 
+>
+>1 运行脚本前应保证chromedriver.exe版本与本机chrome浏览器版本一致
+>
 >2 ***由于显而易见的原因 脚本已经三个月未维护 不保证抢票成功率。***
 
 >欢迎大家提交PR，共同修改
