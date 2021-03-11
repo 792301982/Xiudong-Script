@@ -1,5 +1,16 @@
 # Xiudong-Script
 作者qq：792301982
+
+***Star数量点够100，本人会考虑继续维护此项目***
+
+***目前仍然存在的问题：***
+
+***不解决以下问题，脚本仍然无法使用！！！***
+
+1.目前只能在app端下单
+
+2.下单时有滑块验证码
+
 >统一回复下:
 >
 >1 运行脚本前应保证chromedriver.exe版本与本机chrome浏览器版本一致
@@ -16,13 +27,6 @@
 某confirm_url:https://wap.showstart.com/pages/order/activity/confirm/confirm?sequence=132373&ticketId=2d60d9262aa9460a9478b71b5b43f545&ticketNum=1&ioswx=1&showstart=nb
 把获取到的ticketid和sequence参数，替换进去。
 
-***目前仍然存在的问题：***
-
-***不解决以下问题，脚本仍然无法使用！！！***
-
-1.目前只能在app端下单
-
-2.下单时有滑块验证码
 
 >***最后祝各位好运***
 
