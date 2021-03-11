@@ -16,8 +16,9 @@
 某confirm_url:https://wap.showstart.com/pages/order/activity/confirm/confirm?sequence=132373&ticketId=2d60d9262aa9460a9478b71b5b43f545&ticketNum=1&ioswx=1&showstart=nb
 把获取到的ticketid和sequence参数，替换进去。
 
-***目前仍然存在的问题***
-***不解决以下问题，脚本仍然无法使用！！***
+***目前仍然存在的问题：***
+
+***不解决以下问题，脚本仍然无法使用！！！***
 1.目前只能在app端下单
 
 2.下单时有滑块验证码
